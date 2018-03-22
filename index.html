@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>SFPD Web page</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Arsenal|Julius+Sans+One'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  
+<html>
+  <head>
+    <title>San Francisco Police Department Statistics</title>
+  </head>
+  <div class="container">
+  <div><a href="#data" class="bitter">Data Visuals</a></div><div><a href="#dispatch" class="bitter">Which Dispatch?</a></div><div><a href="#times" class="bitter">Dispatch Times</a></div>
+</div>
+  <h1 class="bitter">
+    San Francisco Police Department Statisitcs
+  </h1>
+  <h2 class="bitter">
+    Welcome to the data center for the San Fransisco Police Department.
+  </h2>
+  <h3 class="bitter">
+    On this page, you can find data visuals for the Police Department as well as information about dispatch times and dispatch centers.
+  </h3>
+  <div class="main">
+  <h3 class="big" id="data">
+    Data Visuals
+  </h3>
+  <h4>
+    These charts show different trends from the data taken from the department.
+  </h4>
+    <h4 class="chart-title">
+      Call Types
+    </h4>
+    <div class="horizontal-bar-graph" id="my-graph"></div>
+    <h4 class="chart-sub">
+      This graph shows the amount of calls taken from January 13, 2018 to January 24, 2018 as well as the type of call that was recieved. The majority of calls taken were for medical incidents.
+    </h4>
+    
+  <h3 class="chart-title">
+    Dispatch Unit Types
+  </h3>
+  <div class="app">
+  <div >
+    <pie-chart></pie-chart>
+   </div>
+</div>
+    <h3 class="chart-title">
+      Priority Change
+    </h3>
+    
+    <script src="https://www.amcharts.com/lib/3/amcharts.js"></script>
+<script src="https://www.amcharts.com/lib/3/pie.js"></script>
+<script src="https://www.amcharts.com/lib/3/themes/light.js"></script>
+<div id="chartdiv"></div>		
+    <h4 class="chart-sub">
+      This graph shows the difference in priority from when the call is first recieved to when the call has ended. A majority of calls stayed at the same priority. 
+    </h4>
+    <h3 class="big" id="dispatch">
+      Which Dispatch?
+    </h3>
+    <h4>
+      Given an address and time a dispatch is chosen.
+    </h4>
+    <form action="MySite.php">
+    <input type="text" name="name" />
+    <input type="submit" />
+</form>
+  </div>
+  <div class="main">
+    <h3 class="big" id="times">
+      Dispatch Times
+    </h3>
+    <h4>
+      Which areas take the longest dispatch times? How can it be reduced?
+    </h4>
+  </div>
+  <div>
+    <h3 class="chart-title main">
+      Heat Map
+    </h3>
+  <iframe class="center" width=100% height="300" scrolling="no" frameborder="no" src="https://fusiontables.google.com/embedviz?q=select+col0%2C+col1+from+1V9qF9AMdub4AU-sDz_YhDV3NrJTP47hAxNOt113s+limit+1000&amp;viz=HEATMAP&amp;h=true&amp;lat=37.77085636765547&amp;lng=-122.42038811142578&amp;t=1&amp;z=12&amp;l=col0&amp;y=3&amp;tmplt=3&amp;hmd=true&amp;hmg=%2366ff0000%2C%2393ff00ff%2C%23c1ff00ff%2C%23eeff00ff%2C%23f4e300ff%2C%23f4e300ff%2C%23f9c600ff%2C%23ffaa00ff%2C%23ff7100ff%2C%23ff3900ff%2C%23ff0000ff&amp;hmo=0.63&amp;hmr=15&amp;hmw=0&amp;hml=TWO_COL_LAT_LNG"></iframe>
+  </div>
+</html>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/exceljs/0.9.1/exceljs.js'></script>
+<script src='https://d3js.org/d3.v3.min.js'></script>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.2.6/vue.min.js'></script>
+<script src='https://unpkg.com/vue-chartjs@2.6.5'></script>
+<script src='https://unpkg.com/chart.piecelabel.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
