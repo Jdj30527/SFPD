@@ -11,7 +11,7 @@ Visuals:
 
   Call Types - I decided to look at the different call types that the department received. In my own life, I had thought about what types of calls police departments receive normally so I decided to see what types San Francisco received and how many of each. I decided a bar graph would be the best visual for displaying this information.
 
-  Dispatch Uniit Types - This visual looked at the different types of dispatches that were used over the period of time. I was interested to see how many types of transportation were used. I thought that it would tell me about how the first responder group worked (like what types of transportation is normally used).
+  Dispatch Unit Types - This visual looked at the different types of dispatches that were used over the period of time. I was interested to see how many types of transportation were used. I thought that it would tell me about how the first responder group worked (like what types of transportation is normally used).
 
   Priority Change - This visual lloked at the initial priority and the final priority of each call. I wondered if there were many instances where the priority increased, to see if situations usually got worse over time. The data showed that it stayed the same for most calls.
   
