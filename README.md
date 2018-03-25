@@ -9,7 +9,7 @@ Hello, my name is John Jefferies. I am a first year computer science major at Vi
 
 Visuals:
 
-  Call Types - I decided to look at the different call types that the department recieved. In my own life, I had thought about what types of calls police departments recieve normally so I decided to see what types San Francisco recieved and how many of each. I decided a bar graph would be the best visual for displaying this information.
+  Call Types - I decided to look at the different call types that the department received. In my own life, I had thought about what types of calls police departments receive normally so I decided to see what types San Francisco received and how many of each. I decided a bar graph would be the best visual for displaying this information.
 
   Dispatch Uniit Types - This visual looked at the different types of dispatches that were used over the period of time. I was interested to see how many types of transportation were used. I thought that it would tell me about how the first responder group worked (like what types of transportation is normally used).
 
@@ -26,4 +26,4 @@ I did not even know how to extrapolate the data in the way that I wanted to comp
 
 Heat Maps:
 
-I also added two heat maps, one for all calls and one for only alarm calls. The alarm call map shows the areas that moght be more dangerous given the amount of break-ins.
+I also added two heat maps, one for all calls and one for only alarm calls. The alarm call map shows the areas that might be more dangerous given the amount of break-ins.
