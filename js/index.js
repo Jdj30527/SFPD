@@ -1,3 +1,4 @@
+//Horizontal Bar Graph
 HorizontalBarGraph = function(el, series) {
   this.el = d3.select(el);
   this.series = series;
@@ -49,7 +50,9 @@ var graph = new HorizontalBarGraph('#my-graph', [
     {label: "HazMat", inner_label: "3 calls", value: 3, color: "#6dc2ae"}
 ]);
 graph.draw();
+//End of Horizontal Bar Graph
 
+//Pie Chart
 function sliceSize(dataNum, dataTotal) {
   return (dataNum / dataTotal) * 360;
 }
@@ -104,8 +107,9 @@ function createPie(dataElement, pieElement) {
   }
 }
 createPie(".pieID.legend", ".pieID.pie");
+//End of first Pie Chart
 
-
+//Second Pie Chart
 Vue.component('pie-chart', {
   extends: VueChartJs.Pie,
  mounted () {
@@ -185,3 +189,4 @@ var chart = AmCharts.makeChart( "chartdiv", {
     "enabled": true
   }
 } );
+//End of second Pie Chart
