@@ -72,6 +72,7 @@ table, th, td {
   text-align: center;
 }
 
+/*Start of horizontal bar graph*/
 .horizontal-bar-graph {
   display: table;
   width: 100%;
@@ -125,7 +126,9 @@ table, th, td {
 .horizontal-bar-graph-segment:last-child .horizontal-bar-graph-value {
   padding-bottom: 11px;
 }
+/*End of horizontal bar graph*/
 
+/*Start of first pie chart*/
 @keyframes bake-pie {
   from {
     transform: rotate(0deg) translate3d(0, 0, 0);
